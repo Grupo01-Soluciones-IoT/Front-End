@@ -25,7 +25,7 @@ const router = createRouter({
                 {
                     path: '/harvest',
                     name: 'harvest',
-                    component: () => import('@/views/harvest/HarvestView.vue')
+                    component: () => import('@/views/harvest/CreateHarvestView.vue')
                 },
                 {
                     path: '/harvest/news',
